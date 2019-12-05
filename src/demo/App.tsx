@@ -1,6 +1,6 @@
 /* eslint-disable no-console */
 import React from 'react';
-import { Topology, topologyWrapper, TemplateWrapper } from '../lib';
+import { Topology, TemplateWrapper } from '../lib';
 import { ITopologyNode, ITopologyData, IWrapperOptions } from '../lib/declare';
 import './index.less';
 
@@ -77,4 +77,4 @@ class Flow extends React.Component<{}, FlowState> {
     }
 }
 
-export default topologyWrapper(Flow);
+export default Flow;
